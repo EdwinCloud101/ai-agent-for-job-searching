@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Secrets / credentials ---
+.env
+.env.*
+!.env.example
+*.key
+
+# --- Collected data + token log (local only, not tracked) ---
+data/
+tokens.txt
+
+# --- Browser profile (if ever placed here; contains a live session) ---
+*-profile/
+.linkedin-profile/
+
+# --- IDE / editor / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

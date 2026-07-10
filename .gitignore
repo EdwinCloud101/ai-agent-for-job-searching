@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+
+# ===== Secrets & credentials (NEVER commit) =====
+.env
+.env.*
+*.key
+
+# ===== Personal per-agent config =====
+# Each agent ships an instructions.example.md template; the real instructions.md
+# holds personal values (search terms, blacklist, screening answers) and stays local.
+instructions.md
+
+# ===== Browser profiles (contain live logged-in LinkedIn sessions) =====
+*-profile/
+.linkedin-profile/
+.apply-profile/
+
+# ===== Collected / generated data & logs (local only) =====
+data/
+tokens.txt
+blocker-dump.html
+
+# ===== Resume / personal documents =====
+resume.pdf
+*-Resume-*.pdf
+
+# ===== IDE / editor / OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
