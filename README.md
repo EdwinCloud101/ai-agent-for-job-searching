@@ -7,7 +7,7 @@ LangGraph, and Playwright.
 
 ## Demo
 
-<video src="https://raw.githubusercontent.com/EdwinCloud101/ai-agent-for-job-searching/main/assets/demo.mp4" controls></video>
+https://github.com/user-attachments/assets/911574ad-c56d-41b8-816a-05406d9884fd
 
 
 
